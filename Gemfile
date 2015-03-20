@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+gem 'sinatra'
+gem 'sinatra-activerecord'
+gem 'rake'
+gem 'devise'
+gem 'grape'
+gem 'grape-swagger'
+gem 'sqlite3'
+gem 'bcrypt'
+gem 'rspec'
+gem 'rack-test'
+
