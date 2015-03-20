@@ -2,6 +2,10 @@
 
 This is a stub of an API for new user signups. It uses Grape and ActiveRecord, and Swagger to show the API docs.
 
+Right now the API only allows for the creation and saving of new users. In addition, it leaks all of the created user's authentication tokens on the list view. Before you use any of this code you should fix that.
+
+The code does not yet create secure sessions, and it does not generate tokens with creation and expiration times. Those should be added before doing anything with this, other than learning.
+
 # Getting it up and running locally
 
 If you're using a Mac, please install RVM. This project uses Ruby 2.2.0. One you've installed rvm do the following in the cloned repo directory:
